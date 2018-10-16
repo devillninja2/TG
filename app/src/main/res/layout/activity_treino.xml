@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        tools:context=".TreinosActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/iconeacademia" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="260dp"
+            android:text="Logout"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"
+            android:onClick="sair"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="130dp"
+            android:onClick="abrirCronometro"
+            android:text="1 - Supino Reto 3x10, 1min descanso"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/supinoreto"
+            android:onClick="abrirCronometro"
+            />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="280dp"
+            android:text="2 - Supino Inclinado 3x10, 1min descanso"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"
+            android:onClick="abrirCronometro"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="300dp"
+            android:src="@drawable/supinoinclinado"
+            android:onClick="abrirCronometro" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="415dp"
+            android:text="3 - Supino Declinado 3x10, 1min descanso"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"
+            android:onClick="abrirCronometro"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="440dp"
+            android:src="@drawable/supinodeclinado"
+            android:onClick="abrirCronometro"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="565dp"
+            android:text="4 - PackDeck 3x10, 1min descanso"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"
+            android:onClick="abrirCronometro"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="590dp"
+            android:src="@drawable/peckdeck"
+            android:onClick="abrirCronometro"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="720dp"
+            android:text="5 - Pulley Triceps 3x10, 1min descanso"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"
+            android:onClick="abrirCronometro"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="740dp"
+            android:src="@drawable/tricepspulley"
+            android:onClick="abrirCronometro"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="860dp"
+            android:text="6 - Pulley Corda 3x10, 1min descanso"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"
+            android:onClick="abrirCronometro"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="890dp"
+            android:src="@drawable/tricpescorda"
+            android:onClick="abrirCronometro"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="1010dp"
+            android:text="7 - Triceps Frances 3x10, 1min descanso"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"
+            android:onClick="abrirCronometro"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1030dp"
+            android:src="@drawable/tricepsfrances"
+            android:onClick="abrirCronometro"/>
+
+    </RelativeLayout>
+</ScrollView>

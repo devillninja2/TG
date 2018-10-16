@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="170dp"
+        android:text="CPF"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextCpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="197dp"
+        android:elevation="@android:dimen/thumbnail_height"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="14"
+        android:maxLines="1" />
+
+    <CheckBox
+        android:id="@+id/checkbxCpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="245dp"
+        android:checked="true"
+        android:text="Lembrar Cpf" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="350dp"
+        android:background="?android:attr/actionModeBackground"
+        android:backgroundTint="?android:attr/textColorHintInverse"
+        android:elevation="?android:attr/scrollbarSize"
+
+        android:text="Logar"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorLink="@android:color/holo_blue_dark"
+        android:textSize="15sp"
+        android:onClick="abrirTreinos"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:src="@color/colorPrimaryDark" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/iconeacademia" />
+
+
+</FrameLayout>
